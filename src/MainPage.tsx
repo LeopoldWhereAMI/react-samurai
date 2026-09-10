@@ -9,6 +9,7 @@ export const MainPage = () => {
 
   return (
     <div style={{ display: "flex", gap: "20px" }}>
+      <h1>Musicfun Player</h1>
       <TracksList onTrackSelect={handleTrackSelect} selectedTrackId={trackId} />
       <TrackDetail trackId={trackId} />
     </div>
